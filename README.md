@@ -13,8 +13,6 @@ To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) a
 - WordPress Toledo
 - And other organized tech events in the Toledo Region
 
-### Related examples
-
 ## How to use
 
 Execute [pnpm](https://pnpm.io) to install:
