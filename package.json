@@ -1,4 +1,6 @@
 {
+  "name": "toledo-agenda",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next",
@@ -6,7 +8,8 @@
     "start": "next start",
     "typecheck": "tsc",
     "watch": "tsc -w",
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts"
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -28,8 +31,15 @@
     "@typescript-eslint/parser": "^6.8.0",
     "autoprefixer": "^10.4.7",
     "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
     "postcss": "^8.4.14",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
     "tailwindcss": "^3.1.4"
+  },
+  "resolutions": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
   }
 }
