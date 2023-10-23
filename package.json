@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc",
-    "watch": "tsc -w",
+    "watch": "tsc -w --ext .ts, .tsx, .d.ts, .cts, .d.cts, .mts, .d.mts",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
