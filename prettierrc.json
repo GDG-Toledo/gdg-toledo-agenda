@@ -1,7 +1,9 @@
 {
   "semi": false,
   "singleQuote": true,
+  "doubleQuote": false,
   "jsxSingleQuote": true,
+  "jsxDoubleQuote": false,
   "arrowParens": "always",
   "trailingComma": "all"
 }
